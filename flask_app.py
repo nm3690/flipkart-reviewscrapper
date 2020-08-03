@@ -5,7 +5,7 @@ from flask_cors import CORS, cross_origin
 import requests
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
-
+# import pandas as pd
 app = Flask(__name__)
 
 
